@@ -95,6 +95,7 @@ h1 {
   border: 2px solid brown;
   border-radius: 10px;
   background-color: darkcyan;
+  border-image: url("images/adel3.jpeg") 100 round;
 
   align-items: center;
   width: 1060px;
