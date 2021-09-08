@@ -100,3 +100,44 @@ h1 {
   align-items: center;
   width: 1060px;
 }
+/* Nav bar styling */
+
+.ul2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(116, 30, 255, 0.308);
+  border-radius: 5px;
+  animation-name: ani;
+  animation-duration: 5s;
+}
+
+#li2 {
+  float: left;
+}
+
+#li2 a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-style: italic;
+  font-size: 15px;
+}
+
+#li2 #a2:hover {
+  background-color: rgba(17, 17, 17, 0.336);
+}
+
+/* Animation text */
+
+@keyframes ani {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: blueviolet;
+  }
+}
